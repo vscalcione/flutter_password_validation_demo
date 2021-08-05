@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
     setState(() {
       _isPasswordEightCharacters = false;
-      if (password.length >= 8) _isPasswordEightCharacters = true;
+      if (password.length >= 10) _isPasswordEightCharacters = true;
 
       _hasPasswordOneNumber = false;
       if (numericRegex.hasMatch(password)) _hasPasswordOneNumber = true;
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
               height: 10,
             ),
             Text(
-              "Please create a secure password including the following criteria below.",
+              "Create a secure password checking the following criteria below.",
               style: TextStyle(
                   fontSize: 16, height: 1.5, color: Colors.grey.shade600),
             ),
@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   width: 10,
                 ),
-                Text("Contains at least 8 characters")
+                Text("Contains at least 10 characters")
               ],
             ),
             SizedBox(

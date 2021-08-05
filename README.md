@@ -5,6 +5,10 @@
 
 A new Flutter project that show the reactive validation of a password input value.
 
+## Screnshot
+
+![Screenshot](/screenshot.jpg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
