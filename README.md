@@ -19,12 +19,15 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 To build this flutter project, you can run these commands:
+
 ```bash
 $ flutter pub get
 $ flutter run
 ```
+
 or run this script
+
 ```bash
-$ build.sh (for unix/linux systems)
-> build.bat (for Windows systems)
+$ [build.sh](/blob/main/build.sh) (for unix/linux systems)
+> [build.bat](/blob/main/build.bat) (for Windows systems)
 ```
