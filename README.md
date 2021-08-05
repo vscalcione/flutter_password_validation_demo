@@ -28,6 +28,6 @@ $ flutter run
 or run this script
 
 ```bash
-$ [build.sh](/blob/main/build.sh) (for unix/linux systems)
-> [build.bat](/blob/main/build.bat) (for Windows systems)
+$ build.sh (for unix/linux systems)
+> build.bat (for Windows systems)
 ```
